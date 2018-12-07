@@ -1,12 +1,13 @@
 body {
   font-size: 10px;
+  background-color: black;
 }
 .wrapper {
   background-image: url(../img/winter1080.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: black;
+  visibility: hidden;
   width: 100%;
   height: 100vh;
 }
@@ -28,18 +29,15 @@ body {
   /* vertical-align: middle; */
 }
 .opacity {
-visibility: hidden;
-}
-.opacity {
-animation-name: myopacity;
--webkit-animation-name: myopacity; 
+animation-name: bgAnimation;
+-webkit-animation-name: bgAnimation; 
 animation-duration: 2.5s; 
 -webkit-animation-duration: 2.5s;
 animation-timing-function: ease-out; 
 -webkit-animation-timing-function: ease-out; 
 visibility: visible !important; 
 }
-@keyframes myopacity {
+@keyframes bgAnimation {
   from {
     filter: brightness(0);
   }
