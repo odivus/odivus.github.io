@@ -35,8 +35,8 @@ animation-name: myopacity;
 -webkit-animation-name: myopacity; 
 animation-duration: 1.2s; 
 -webkit-animation-duration: 1.2s;
-animation-timing-function: linear; 
--webkit-animation-timing-function: linear; 
+animation-timing-function: ease-out; 
+-webkit-animation-timing-function: ease-out; 
 visibility: visible !important; 
 }
 @keyframes myopacity{0%{opacity:0}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8}90%{opacity:.9}100%{opacity:1}}
