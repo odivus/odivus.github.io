@@ -14,8 +14,30 @@ function getDaysForNewYear() {
   return difference;
 };
 
+function num2str(n) {
+  let n1, text_forms;
+  n = Math.abs(n) % 100;
+  n1 = n % 10;
+  text_forms = ['день', 'дня', 'дней'];
+
+  if (n > 10 && n < 20) {
+    return text_forms[2];
+  }
+
+  if (n1 > 1 && n1 < 5) {
+    return text_forms[1];
+  }
+
+  if (n1 == 1) {
+    return text_forms[0];
+  }
+
+  return text_forms[2];
+}
+
 function showDaysForNewYear() {
-  document.querySelector('.days').innerText = getDaysForNewYear();    
+  let days = getDaysForNewYear();
+  document.querySelector('.info h1').innerHTML = `До&nbsp;нового года <span class="days">${days}</span>&nbsp;${num2str(days)}`;    
 }
 
 function startBgAnimation() {
