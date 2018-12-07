@@ -19,7 +19,7 @@ function showDaysForNewYear() {
 }
 
 function startBgAnimation() {
-  document.querySelector('.wrapper').className = 'wrapper opacity';
+  document.querySelector('.wrapper').className = 'wrapper animationWrapper';
 }
 
 document.addEventListener("DOMContentLoaded", showDaysForNewYear);

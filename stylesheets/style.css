@@ -28,14 +28,14 @@ body {
   font-weight: 700;
   /* vertical-align: middle; */
 }
-.opacity {
+.animationWrapper {
 animation-name: bgAnimation;
 -webkit-animation-name: bgAnimation; 
 animation-duration: 2.5s; 
 -webkit-animation-duration: 2.5s;
 animation-timing-function: ease-out; 
 -webkit-animation-timing-function: ease-out; 
-visibility: visible !important; 
+visibility: visible; 
 }
 @keyframes bgAnimation {
   from {
