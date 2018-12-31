@@ -1,7 +1,8 @@
 (function() {
   'use strict';
   // Пример Сколько осталось дней до Нового года. Флэнаган стр. 792
-  function getDaysForNewYear() {
+  //old
+ /*  function getDaysForNewYear() {
     let today = new Date(), // Запомнить сегодняшнюю дату
       newYear = new Date(),
       difference;
@@ -15,8 +16,27 @@
     }
     return difference;
   };
+ */
+  function getDaysForNewYear() {
+    let today = new Date(), // Запомнить сегодняшнюю дату
+      newYear = new Date(),
+      difference;
 
-  function num2str(n) {
+    newYear.setMonth(11); // Установить месяц Декабрь
+    newYear.setDate(31); // Установить число
+    //console.log(newYear.getTime());
+    //console.log(today.getTime());
+
+    if (newYear.getTime() === today.getTime()) return null;
+
+    if (today.getTime() < newYear.getTime()) {
+      difference = newYear.getTime() - today.getTime(); // результат в миллисекундах
+      difference = Math.floor(difference / (1000 * 60 * 60 * 24));
+      return difference;
+    }
+  };
+ 
+ function num2str(n) {
     let n1, text_forms;
     n = Math.abs(n) % 100;
     n1 = n % 10;
@@ -39,7 +59,15 @@
 
   function showDaysForNewYear() {
     let days = getDaysForNewYear();
-    document.querySelector('.info h1').innerHTML = `До&nbsp;нового года <span class="days">${days}</span>&nbsp;${num2str(days)}`;    
+    let textDomElement = document.querySelector('.info h1');
+    
+    if (!days) {
+      textDomElement.innerHTML = '<span class="days">С новым годом!</span>';
+    } else {
+      textDomElement.innerHTML = 
+      `До&nbsp;нового года <span class="days">${days}</span>&nbsp;
+      ${num2str(days)}`; 
+    }  
   }
 
   function startBgAnimation() {
