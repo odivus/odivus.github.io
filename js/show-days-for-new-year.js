@@ -22,6 +22,7 @@
  
  function num2str(n) {
     let n1, text_forms;
+    
     n = Math.abs(n) % 100;
     n1 = n % 10;
     text_forms = ['день', 'дня', 'дней'];
