@@ -13,12 +13,14 @@ body {
 }
 .info {
   position: absolute;
-  z-index: 999; 
+  text-align: center;
+  z-index: 999;
   bottom: 75px;
   right: 35px;
 }
 .info h1 {
   font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1.5px 0.8px rgba(0, 0, 0, .6);
   font-weight: 100;
   font-size: 2rem;
   color: white;
@@ -43,5 +45,20 @@ visibility: visible;
   }
   to {
     filter: brightness(1);
+  }
+}
+@media (min-width: 100px) and (max-width: 550px) {
+  .info {
+    margin: auto;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 45px;
+  }
+  .days {
+    font-size: 2.2rem;
+  }
+  .info h1 {
+    font-size: 1.8rem;
   }
 }
