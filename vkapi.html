@@ -52,7 +52,7 @@
   })
   .then(function() {
     return new Promise(function(resolve, reject) {
-      VK.api('users.get', { 'name_case': 'gen' },
+      VK.api('users.get', { 'name_case': 'gen', 'v': '5.92' },
         function(response) {
           if (response.error) {
             reject(new Error(response.error.error_msg));
