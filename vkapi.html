@@ -46,6 +46,7 @@
       VK.Auth.login(function(response) {
         if (response.session) {
           resolve(response);
+          console.log(resolve);
         } else {
           reject(new Error('Не удалось авторизоваться'));
         }
