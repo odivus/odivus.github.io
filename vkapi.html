@@ -45,13 +45,13 @@
 
       VK.Auth.login(function(response) {
         if (response.session) {
-          //resolve(response);
-          console.log(resolve(response));
+          resolve(response); // WTF
+          //console.log(resolve(response));
         } else {
           reject(new Error('Не удалось авторизоваться'));
         }
       }, 8);
-    });
+    }).then((result) => console.log(result)); // Ну так же надо?
   })
   .then(function() {
     return new Promise(function(resolve, reject) {
