@@ -1,6 +1,10 @@
 let getData = () => {
   return new Promise((resolve, reject) => {
-    if (document.readyState === 'complete') resolve();
+    if (document.readyState === 'complete') {
+      resolve();
+    } else {
+      window.onload = resolve;
+    }
   })
 }
 
