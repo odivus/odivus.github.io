@@ -20,7 +20,6 @@ const getData = new Promise((resolve, reject) => {
 });
 
 getData
-  .then ((getUser) => true)
   .then((getUserMusic) => {
     let headerInfo = document.querySelector('.header');
     headerInfo.textContent = 'Музыка на странице '
