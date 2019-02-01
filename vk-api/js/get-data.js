@@ -15,7 +15,7 @@ let getData = (apiId) => {
   })
 }
 
-getData()
+getData(6838385)
   .then(() => { // Get User Full Name
     return new Promise((resolve, reject) => {
       VK.api('users.get', { 'name_case': 'gen', 'v': '5.92' },
