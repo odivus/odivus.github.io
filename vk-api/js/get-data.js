@@ -1,4 +1,4 @@
-const getData = () => {
+let getData = () => {
   return new Promise((resolve, reject) => {
     if (document.readyState === 'complete') resolve();
   })
