@@ -1,17 +1,17 @@
-const getData = (apiId) => {
+const getData = () => {
   return new Promise((resolve, reject) => {
-    if (document.readyState === 'complete') {
-      VK.init({
-        apiId: apiId
-      });
-      resolve();
-    }
+    if (document.readyState === 'complete') resolve();
   })
 }
 
-getData(6838385)
-  .then(() => { // User Login
+getData()
+  .then(() => {
     return new Promise((resolve, reject) => {
+      VK.init({
+        apiId: 6838385
+      });
+    
+      // User Login
       VK.Auth.login(response => {
         if (response.session) {
           resolve();
