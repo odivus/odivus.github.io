@@ -1,30 +1,21 @@
 let getData = () => {
   return new Promise((resolve, reject) => {
-    if (document.readyState === 'complete') {
-      resolve();
-    } else {
-      window.onload = resolve;
-    }
+    VK.init({
+      apiId: 6838385
+    });
+
+    // User Login
+    VK.Auth.login(response => {
+      if (response.session) {
+        resolve();
+      } else {
+        reject(new Error('Не удалось авторизоваться'));
+      }
+    }, 8);
   })
 }
 
 getData()
-  .then(() => {
-    return new Promise((resolve, reject) => {
-      VK.init({
-        apiId: 6838385
-      });
-    
-      // User Login
-      VK.Auth.login(response => {
-        if (response.session) {
-          resolve();
-        } else {
-          reject(new Error('Не удалось авторизоваться'));
-        }
-      }, 8);
-    })
-  })
   .then(() => { // Get User Full Name
     return new Promise((resolve, reject) => {
       VK.api('users.get', { 'name_case': 'gen', 'v': '5.92' },
