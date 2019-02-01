@@ -1,7 +1,7 @@
-let getData = () => {
+let getData = (apiId) => {
   return new Promise((resolve, reject) => {
     VK.init({
-      apiId: 6838385
+      apiId: apiId
     });
 
     // User Login
