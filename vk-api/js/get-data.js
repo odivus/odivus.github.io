@@ -24,8 +24,8 @@ getData
   .then((getUser) => {
     let headerInfo = document.querySelector('.header');
     headerInfo.textContent = 'Музыка на странице '
-      + getUser.response[0].first_name + ' ' 
-      + getUser.response[0].last_name;
+      + getUser.getUser[0].first_name + ' ' 
+      + getUser.getUser[0].last_name;
   })
   .catch((e) => {
     console.log('Ошибка: ' + e.message);
