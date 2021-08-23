@@ -1,0 +1,12 @@
+.logo {
+  width: 240px;
+  height: 236px;
+}
+
+.logo_nolink {
+  cursor: none;
+}
+
+.logo_link {
+  cursor: pointer;
+}
