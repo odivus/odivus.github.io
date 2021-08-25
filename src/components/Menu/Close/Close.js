@@ -6,14 +6,13 @@ import './Close.css';
 
 function Close({ setState }) {
   useEscKeyListener(setState, false);
-
   return (
-    <div 
+    <img 
+      src={close} 
+      alt='Close'
       className='close'
       onClick={() => setState(false)}
-    >
-      {close}
-    </div>
+    />
   );
 }
 

@@ -1,18 +1,15 @@
+.header-wrap {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 3rem;
-  padding: 5px 10px;
+  padding: 10px 22px;
   background-color: #E8F3FF;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  
-  /* @media (max-width: 560px) {
-    padding: 20px 4px 0;
-  }
-
-  @media (max-width: 1080px) {
-    align-items: flex-start;
-  } */
 }

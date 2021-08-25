@@ -1,4 +1,12 @@
 .burger {
-  width: 240px;
-  height: 156px;
+  display: block;
+  width: 36px;
+  height: 26px;
+  cursor: pointer;
+}
+
+@media (min-width: 720px) {
+  .burger {
+    display: none;
+  }
 }

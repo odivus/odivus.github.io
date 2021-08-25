@@ -10,7 +10,11 @@ function Logo() {
   if (location === '/') {
     return (
       <div className='logo logo_nolink'>
-        {logo}
+        <img 
+          src={logo} 
+          alt='odivus logo' 
+          className='logo'
+        />
       </div>
     );
   }
@@ -18,7 +22,11 @@ function Logo() {
   return (
     <Link to='/'>
       <div className='logo logo_link'>
-        {logo}
+        <img
+          src={logo}
+          alt='odivus logo'
+          className='logo'
+        />
       </div>
     </Link>
   );

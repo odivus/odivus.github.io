@@ -8,7 +8,11 @@ function Burger({ setState }) {
       className='burger'
       onClick={() => setState(true)}
     >
-      {burger}
+      <img
+        src={burger}
+        alt='menu burger'
+        className='burger'
+      />
     </div>
   );
 }

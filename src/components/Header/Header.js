@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 import Logo from '../Logo/Logo';
+import Contacts from '../Contacts/Contacts';
 import Menu from '../Menu/Menu';
 import MenuMobile from '../Menu/Menu-mobile';
 import Burger from '../Menu/Burger/Burger';
@@ -34,7 +35,7 @@ function Header() {
 
   useEffect(() => {
     const callback = () => {
-      if (document.body.offsetWidth >= 1080) setMenuIsOpen(false);
+      if (document.body.offsetWidth >= 720) setMenuIsOpen(false);
       setWindowOffsetWidth(document.body.offsetWidth);
     }
 
@@ -45,15 +46,18 @@ function Header() {
   }, []);
 
   return (
-    <div className='header' ref={headerRef}>
-      <Logo />
-      <MenuMobile
-        scrollBarWidth={scrollBarWidth}
-        menuIsOpen={menuIsOpen}
-        setMenuIsOpen={setMenuIsOpen}
-      />
-      <Menu isMobile={false} />
-      <Burger setState={setMenuIsOpen} />
+    <div className='header-wrap'>
+      <div className='header' ref={headerRef}>
+        <Logo />
+        <Menu isMobile={false} />
+        <Contacts />
+        <Burger setState={setMenuIsOpen} />
+        <MenuMobile
+          scrollBarWidth={scrollBarWidth}
+          menuIsOpen={menuIsOpen}
+          setMenuIsOpen={setMenuIsOpen}
+        />
+      </div>
     </div>
   );
 }
