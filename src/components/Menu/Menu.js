@@ -2,12 +2,6 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Menu.css';
 
-// const menuItemsContent = {
-//   '/': 'Обо мне',
-//   '/portfolio': 'Портфолио',
-//   '/resume': 'Резюме',
-// };
-
 function Menu({ isMobile }) {
   const location = useLocation().pathname;
   let className,
