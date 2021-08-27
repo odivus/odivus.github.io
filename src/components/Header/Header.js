@@ -46,17 +46,19 @@ function Header() {
   }, []);
 
   return (
-    <div className='header-wrap'>
-      <div className='header' ref={headerRef}>
-        <Logo />
-        <Menu isMobile={false} />
-        <Contacts />
-        <Burger setState={setMenuIsOpen} />
-        <MenuMobile
-          scrollBarWidth={scrollBarWidth}
-          menuIsOpen={menuIsOpen}
-          setMenuIsOpen={setMenuIsOpen}
-        />
+    <div className='header-wrapper'>
+      <div className='header-wrap'>
+        <div className='header' ref={headerRef}>
+          <Logo />
+          <Menu isMobile={false} />
+          <Contacts />
+          <Burger setState={setMenuIsOpen} />
+          <MenuMobile
+            scrollBarWidth={scrollBarWidth}
+            menuIsOpen={menuIsOpen}
+            setMenuIsOpen={setMenuIsOpen}
+          />
+        </div>
       </div>
     </div>
   );

@@ -33,14 +33,15 @@ body {
 
 h1 {
   font-family: 'IBM-plex-serif', 'Times New Roman', Times, serif;
-  font-size: 44px;
-  line-height: 40px;
+  font-size: 48px;
+  line-height: 50px;
 }
 
 h2 {
   font-family: 'Roboto-medium', Arial, Helvetica, sans-serif;
-  font-size: 34px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 42px;
+  margin: 50px 0 8px;
 }
 
 h3 {
@@ -50,19 +51,27 @@ h3 {
 }
 
 h4 {
+  font-family: 'Roboto-medium', Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  line-height: 30px;
+  margin: 30px 0 12px;
+}
+
+h5 {
   font-family: 'Roboto-bold', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 25px;
   line-height: 29px;
 }
 
-h5 {
+h6 {
   font-family: 'Roboto-medium', Arial, Helvetica, sans-serif;
-  font-size: 27px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 40px 0 16px;
 }
 
-h6 {
+.h7 {
   font-family: 'Roboto-medium', Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 23px;
@@ -83,14 +92,22 @@ a {
   text-decoration: none;
 }
 
-a, p, ul {
-  font-size: 20px;
-  line-height: 24px;
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+p, ul {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+p {
+  margin: 4px 4px;
 }
 
 ul {
   list-style-type: none;
-  line-height: 32px;
+  line-height: 36px;
 }
 
 ul > li::before {
@@ -101,13 +118,12 @@ ul > li::before {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0 auto;
-  padding: 0 22px;
 }
 
 .odivus-photo {
-  height: 140px;
-  width: 140px;
+  height: 220px;
+  width: 220px;
+  margin: 104px 0 18px;
   background-color: #C4C4C4;
   border-radius: 50%;
 }
@@ -124,6 +140,7 @@ ul > li::before {
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 20px 60px;
 }
 
 .github-logo {
@@ -137,4 +154,8 @@ ul > li::before {
   justify-content: center;
   align-items: center;
   font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
 }
