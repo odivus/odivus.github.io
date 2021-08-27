@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../Header/Header';
-import ContactsPage from '../Contacts/Contacts-page';
+import Copyright from '../Copyright/Copyright';
 import alek from '../../assets/img/alek.jpg';
 import github from '../../assets/icons/github.svg';
 
@@ -74,6 +74,7 @@ function Main() {
             <li>Любая графика (векторная, растровая), рекламные баннеры, иллюстрации, иконки</li>
           </ul>
         </div>
+        <Copyright />
       </div>
     </>
   );
