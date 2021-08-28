@@ -270,6 +270,19 @@ function Resume() {
           </p>
           <h6 className='h6-resume'>Стек</h6>
           <p>PHP, MySQL, HTML, CSS</p>
+          <h3>Образование</h3>
+          <p>
+            Восточноукраинский национальный университет имени В.&nbsp;И.&nbsp;Даля
+          </p>
+          <p>
+            <i className='text-marker'>
+              сентябрь 1996&nbsp;&ndash; июль 2001
+            </i>
+          </p>
+          <h6 className='h6-resume'>Специальность</h6>
+          <p>
+            Организация перевозок и&nbsp;управление на&nbsp;промышленном транспорте
+          </p>
         </div>
         <Copyright />
       </div>

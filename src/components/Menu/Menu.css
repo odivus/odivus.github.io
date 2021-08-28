@@ -26,8 +26,6 @@
 .nav {
   display: flex;
   font-family: 'Roboto-medium', Arial, Helvetica, sans-serif;
-  font-size: 26px;
-  letter-spacing: .7px;
   padding: 0;
 }
 
@@ -54,6 +52,11 @@
 .nav__item_screen_small,
 .nav__item:nth-last-child(1) {
   margin-right: 0;
+}
+
+.a-menu, .nav__item {
+  font-size: 26px;
+  letter-spacing: .7px;
 }
 
 .mobile-header {
