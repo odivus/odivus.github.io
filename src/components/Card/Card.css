@@ -1,0 +1,44 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px 14px;
+}
+
+.card__h6 {
+  font-size: 22px;
+  line-height: 26px;
+  margin: 30px 0 0;
+}
+
+.card__p {
+  font-size: 19px;
+}
+
+
+.card__a {
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 8px 0;
+}
+
+.card__a_size_big {
+  display: block;
+  text-align: center;
+  font-family: 'Roboto-bold', Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  line-height: 32px;
+  letter-spacing: .5px;
+  margin-bottom: 8px;
+}
+
+.card__a_size_medium {
+  display: block;
+  text-align: center;
+  font-family: 'Roboto-medium', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0 0 12px;
+}
