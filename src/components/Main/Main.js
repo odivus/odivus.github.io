@@ -37,8 +37,8 @@ function Main() {
           </a>
         </div>
         <h2>Опыт работы</h2>
-        <p><b>React</b>&nbsp;&ndash; <b>2</b>&nbsp;года</p>
         <p className='text-center'>
+          <b>React</b>&nbsp;&ndash; <b>2</b>&nbsp;года<br />
           <b>4</b>&nbsp;персональных проекта в&nbsp;
           <Link to='/portfolio'>портфолио</Link>
         </p>

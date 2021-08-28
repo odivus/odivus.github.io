@@ -156,6 +156,11 @@ ul > li::before {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 12px;
+}
+
+.github-logo-link a {
+  line-height: normal;
 }
 
 .text-center {
