@@ -46,7 +46,12 @@ function Menu({ isMobile }) {
               key={index}
               className={menuItemClassName}
             >
-              <Link to={item[0]} className={menuLinkClassName}>{item[1]}</Link>
+              <Link 
+                to={item[0]} 
+                className={menuLinkClassName}
+              >
+                {item[1]}
+              </Link>
             </li>
           );
         })
