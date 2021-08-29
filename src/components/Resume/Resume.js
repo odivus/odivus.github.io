@@ -11,22 +11,35 @@ function Resume() {
       <Header />
       <div className='page-wrap'>
         <h1>Резюме</h1>
-        <h6>Middle React frontend разработчик</h6>
-        <p className='text-center'>
+        <h6 className='text-center'>Middle React frontend-разработчик</h6>
+        <p className='text-center p-download'>
           Смотреть на&nbsp; 
           <a
-            href='https://github.com/odivus'
+            href='https://docs.google.com/document/d/1poA6SnxQUpeotgc7Ns9NC7-UABcp2eY9F5fmCs0DFlg/edit?usp=sharing'
             target='_blank'
             rel='noopener noreferrer'
           >
             Google&nbsp;Docs
           </a>
           <br />
-          Скачать PDF, Word
+          Скачать <a
+            href='https://disk.yandex.ua/i/2-vM-N47EApJZw'
+            target='_blank'
+            rel='noopener noreferrer'
+            >
+            PDF
+          </a>,&nbsp;
+          <a
+            href='https://disk.yandex.ua/i/Tq1fVHy979V1lA'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Word
+          </a>
         </p>
         <div className='content'>
-          <h3>Frontend разработчик</h3>
-          <p>
+          <h3>Frontend-разработчик</h3>
+          <p className='p-marker'>
             <i className='text-marker'>
               Август 2019&nbsp;&ndash; настоящее время
             </i>
@@ -43,7 +56,9 @@ function Resume() {
             >
               Feedsreader
             </a>
-            <p className='card__p'>Приложение для чтения rss-фидов.</p>
+            <p className='card__p'>
+              Приложение для чтения rss-фидов.
+            </p>
             <h6 className='card__h6'>Исходный код на&nbsp;GitHub</h6>
             <a
               href='https://github.com/odivus/feedsreader-client'
@@ -112,7 +127,9 @@ function Resume() {
             >
               SPB Global
             </a>
-            <p className='card__p'>Сайт вымышленного венчурного фонда.</p>
+            <p className='card__p'>
+              Сайт вымышленного венчурного фонда.
+            </p>
             <a
               href='https://github.com/odivus/spbglobal'
               target='_blank'
@@ -141,7 +158,9 @@ function Resume() {
             >
               Unitconverter
             </a>
-            <p className='card__p'>Конвертер международных величин.</p>
+            <p className='card__p'>
+              Конвертер международных величин.
+            </p>
             <a
               href='https://github.com/odivus/unitconverter'
               target='_blank'
@@ -152,7 +171,7 @@ function Resume() {
            </a>
             <h6 className='card__h6'>Стек</h6>
             <p className='card__p'>
-              React, React&nbsp;Router, Javascript, Css
+              React, React&nbsp;Router, Javascript, Css.
             </p>
             <Link
               to='/portfolio'
@@ -162,12 +181,12 @@ function Resume() {
             </Link>
           </Card>
           <h3>Студия Артемия Лебедева</h3>
-          <p>
+          <p className='p-marker'>
             <i className='text-marker'>
               Июль 2014&nbsp;&ndash; Ноябрь 2016 (2&nbsp;года и&nbsp;5&nbsp;месяцев)
             </i>
           </p>
-          <p>
+          <p className='p-marker'>
             <i className='text-marker'>
               Август 2005&nbsp;&ndash; Июнь 2011 (5&nbsp;лет и&nbsp;11&nbsp;месяцев)
             </i>
@@ -195,22 +214,22 @@ function Resume() {
           </p>
           <ul>
             <li>
-              Создание рекламных баннеров для веб,
+              Создание рекламных баннеров для веб;
             </li>
             <li>
-              Создание макетов отдельных страниц сайтов,
+              Создание макетов отдельных страниц сайтов;
             </li>
             <li>
-              Создание иконок, пиктограмм, иллюстраций для веб,
+              Создание иконок, пиктограмм, иллюстраций для веб;
             </li>
             <li>
-              Фото-ретушь,
+              Фото-ретушь;
             </li>
             <li>
-              Создание графики для печати (редко),
+              Создание графики для печати (редко);
             </li>
             <li>
-              HTML-верстка (редко),
+              HTML-верстка (редко);
             </li>
             <li>
               Специфические задачи по&nbsp;автоматизации рутинных графических действий.
@@ -242,17 +261,16 @@ function Resume() {
           >
             Профиль студии на&nbsp;Upwork
           </a>
-          <p>
+          <p className='p-marker'>
             <i className='text-marker'>
               Февраль 2004&nbsp;&ndash; Июнь 2005 (1&nbsp;год и&nbsp;5&nbsp;месяцев)
             </i>
           </p>
           <p>
-            Создавал веб-дизайн, иллюстрации для сайтов зарубежных заказчиков
-            из&nbsp;США и&nbsp;Европы. Основное время работал удаленно, иногда собирались в&nbsp;офисе для обсуждения проектов.
+            В Wonderkid Studio создавал веб-дизайн, иллюстрации для заказчиков из&nbsp;США и&nbsp;Европы. Основное время работал удаленно, иногда собирались в&nbsp;офисе для обсуждения проектов.
           </p>
           <h3>Конфедерация независимых профсоюзов Украины</h3>
-          <p>
+          <p className='p-marker'>
             <i className='text-marker'>
               Январь 2004&nbsp;&ndash; Ноябрь 2005 (11&nbsp;месяцев)
             </i>
@@ -266,13 +284,13 @@ function Resume() {
           </p>
 
           <p>
-            Дизайн, верстку и&nbsp;программирование, все реализовал самостоятельно. Сайт успешно проработал около 3-х лет, затем заказчик заказал новую версию в&nbsp;веб-студии.
+            Дизайн, верстку и&nbsp;программирование реализовал самостоятельно. Сайт успешно проработал около 3-х лет, затем заказчик заказал новую версию в&nbsp;веб-студии.
           </p>
           <h6 className='h6-resume'>Стек</h6>
-          <p>PHP, MySQL, HTML, CSS</p>
+          <p>PHP, MySQL, HTML, CSS.</p>
           <h3>Образование</h3>
           <p>
-            Восточноукраинский национальный университет имени В.&nbsp;И.&nbsp;Даля
+            Восточноукраинский национальный университет имени В.&nbsp;И.&nbsp;Даля.
           </p>
           <p>
             <i className='text-marker'>
@@ -281,7 +299,7 @@ function Resume() {
           </p>
           <h6 className='h6-resume'>Специальность</h6>
           <p>
-            Организация перевозок и&nbsp;управление на&nbsp;промышленном транспорте
+            Организация перевозок и&nbsp;управление на&nbsp;промышленном транспорте.
           </p>
         </div>
         <Copyright />

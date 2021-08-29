@@ -6,11 +6,13 @@ function Menu({ isMobile }) {
   const location = useLocation().pathname;
   let className,
       menuItemClassName,
+      menuLinkClassName,
       menuItemsContent;
 
   if (isMobile) {
-    className = 'nav nav_screen_small';
-    menuItemClassName = 'nav__item nav__item_screen_small';
+    className = 'nav nav_mobile';
+    menuItemClassName = 'nav__item nav__item_mobile';
+    menuLinkClassName = 'a-menu a-mobile';
     menuItemsContent = {
       '/': 'Обо мне',
       '/portfolio': 'Портфолио',
@@ -19,6 +21,7 @@ function Menu({ isMobile }) {
   } else {
     className = 'nav';
     menuItemClassName = 'nav__item';
+    menuLinkClassName = 'a-menu';
     menuItemsContent = {
       '/portfolio': 'Портфолио',
       '/resume': 'Резюме',
@@ -43,7 +46,7 @@ function Menu({ isMobile }) {
               key={index}
               className={menuItemClassName}
             >
-              <Link to={item[0]} className='a-menu'>{item[1]}</Link>
+              <Link to={item[0]} className={menuLinkClassName}>{item[1]}</Link>
             </li>
           );
         })

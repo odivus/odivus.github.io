@@ -9,36 +9,44 @@
 .card__h6 {
   font-size: 22px;
   line-height: 26px;
-  margin: 30px 0 0;
+  margin: 30px 0 5px;
 }
 
 .card__p {
   font-size: 19px;
+  margin-top: 0;
 }
 
+.card__a,
+.card__a_size_medium,
+.card__a_size_big {
+  display: block;
+  width: fit-content;
+}
 
 .card__a {
-  display: block;
   font-size: 18px;
   line-height: 20px;
   margin: 8px 0;
 }
 
+.card__a_size_medium {
+  font-family: 'Roboto-medium', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 21px 0 12px;
+}
+
 .card__a_size_big {
-  display: block;
-  text-align: center;
   font-family: 'Roboto-bold', Arial, Helvetica, sans-serif;
   font-size: 27px;
   line-height: 32px;
   letter-spacing: .5px;
-  margin-bottom: 8px;
+  margin: 4px 0 5px;
 }
 
-.card__a_size_medium {
-  display: block;
-  text-align: center;
-  font-family: 'Roboto-medium', Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  line-height: 26px;
-  margin: 0 0 12px;
+@media (min-width: 500px) {
+  .card {
+    padding: 20px 30px;
+  }
 }
