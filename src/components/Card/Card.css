@@ -3,24 +3,43 @@
   border-radius: 6px;
   width: 100%;
   margin: 20px 0;
-  padding: 20px 14px;
+  padding: 30px 14px;
 }
 
 .card__h6 {
   font-size: 22px;
   line-height: 26px;
-  margin: 30px 0 5px;
+  margin: 30px 0 2px;
 }
 
-.card__p {
+.card__p, 
+.card__ul, 
+.card__ol {
   font-size: 19px;
   margin-top: 0;
+}
+
+.card__p,
+.card__ul, 
+.card__ol {
+  line-height: 26px;
+}
+
+.card__ol li {
+  margin: 8px 0 14px;
+}
+
+.card__ul li {
+  margin: 8px 0 8px;
+}
+
+.card__ol {
+  padding-left: 20px;
 }
 
 .card__a,
 .card__a_size_medium,
 .card__a_size_big {
-  display: block;
   width: fit-content;
 }
 
@@ -28,6 +47,10 @@
   font-size: 18px;
   line-height: 20px;
   margin: 8px 0;
+}
+
+.card__a_block {
+  display: block;
 }
 
 .card__a_size_medium {
@@ -38,15 +61,20 @@
 }
 
 .card__a_size_big {
+  display: inline-block;
   font-family: 'Roboto-bold', Arial, Helvetica, sans-serif;
-  font-size: 27px;
-  line-height: 32px;
+  font-size: 30px;
+  line-height: 33px;
   letter-spacing: .5px;
-  margin: 4px 0 5px;
+  margin: 0 0 4px;
+}
+
+.card__anchor {
+  visibility: hidden;
 }
 
 @media (min-width: 500px) {
   .card {
-    padding: 20px 30px;
+    padding: 30px;
   }
 }

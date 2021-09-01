@@ -1,0 +1,11 @@
+.up {
+  width: 100%;
+  text-align: end;
+  cursor: pointer;
+}
+
+.up__item {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}

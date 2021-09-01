@@ -17,7 +17,7 @@ body {
 	line-height: 1.2;
 }
 ol { 
-	padding-left: 1.4em;
+	padding-left: 0;
 	list-style: decimal;
 }
 ul {
