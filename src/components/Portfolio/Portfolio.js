@@ -198,6 +198,23 @@ function Portfolio() {
             <p className='card__p'>
               React, React Router, Javascript, Css.
             </p>
+            <h6 className='card__h6'>Возможности приложения</h6>
+            <p className='card__p card__p_first'>
+              Конвертер международных величин позволяет конвертировать следующие международные единицы:
+            </p>
+            <ul className='card__ul'>
+              <li>Температуру</li>
+              <li>Скорость</li>
+              <li>Объём</li>
+              <li>Длину</li>
+              <li>Вес</li>
+            </ul>
+            <p className='card__p card__p_first'>
+              Также умеет конвертировать валюты, используя сторонний&nbsp;api.
+            </p>
+            <p className='card__p card__p_first'>
+              Код легко расширяемый для добавления новых величин и&nbsp;валют.
+            </p>
             <h6 className='card__h6'>Демонстрация</h6>
             <Up />
           </Card>
