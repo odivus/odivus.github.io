@@ -5,7 +5,13 @@ import Header from '../Header/Header';
 import Copyright from '../Copyright/Copyright';
 import Card from '../Card/Card';
 
+import { useSetTitle } from '../../hooks/use-set-title';
+import { useScrollUp } from '../../hooks/scroll-up';
+
 function Resume() {
+  useSetTitle('Олег Петько – резюме');
+  useScrollUp();
+
   return (
     <>
       <Header />

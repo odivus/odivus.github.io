@@ -25,6 +25,10 @@
   line-height: 26px;
 }
 
+.card__p_first {
+  margin-top: 8px;
+}
+
 .card__ol li {
   margin: 8px 0 14px;
 }
@@ -44,8 +48,8 @@
 }
 
 .card__a {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 19px;
+  line-height: 21px;
   margin: 8px 0;
 }
 

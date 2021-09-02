@@ -56,6 +56,7 @@
 .a-menu, .nav__item {
   font-size: 26px;
   letter-spacing: .7px;
+  line-height: 0px;
 }
 
 .a-mobile {
