@@ -12,8 +12,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 14px;
   background-color: #E8F3FF;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+
+@media (min-width: 500px) {
+  .header {
+    padding: 10px 30px;
+  }
 }
