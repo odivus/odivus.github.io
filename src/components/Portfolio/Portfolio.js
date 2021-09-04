@@ -12,7 +12,6 @@ import '../Card/Card.css';
 
 function Portfolio() {
   useSetTitle('Олег Петько – портфолио');
-
   return (
     <>
       <Header />
