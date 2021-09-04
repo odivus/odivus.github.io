@@ -10,9 +10,15 @@ function Contacts({ isMobile }) {
 
   return (
     <div className={className}>
-      <img src={telegram} alt='Telegram' className='contacts__item' />
-      <img src={skype} alt='Skype' className='contacts__item' />
-      <img src={email} alt='Email' className='contacts__item' />
+      <a href='https://telegram.me/odivus' className='contacts__item'>
+        <img src={telegram} alt='Telegram' />
+      </a>
+      <a href='skype:odivus?chat' className='contacts__item'>
+        <img src={skype} alt='Skype' />
+      </a>
+      <a href='mailto:odivus@gmail.com' className='contacts__item'>
+        <img src={email} alt='Email' />
+      </a>
     </div>
   );
 }
