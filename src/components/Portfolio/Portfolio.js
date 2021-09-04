@@ -7,13 +7,11 @@ import AnchorNav from '../Anchor-nav/Anchor-nav';
 import Up from '../Up/Up';
 
 import { useSetTitle } from '../../hooks/use-set-title';
-import { useScrollUp } from '../../hooks/scroll-up';
 
 import '../Card/Card.css';
 
 function Portfolio() {
   useSetTitle('Олег Петько – портфолио');
-  useScrollUp();
 
   return (
     <>
@@ -144,7 +142,7 @@ function Portfolio() {
             <Up />
           </Card>
         </div>
-        <div id='spb%20global' className='anchor-nav-wrapper'>
+        <div id='spbglobal' className='anchor-nav-wrapper'>
           <Card>
             <a
               href='https://spbglobal.vercel.app'
@@ -173,7 +171,7 @@ function Portfolio() {
             <Up />
           </Card>
         </div>
-        <div id='unit%20converter' className='anchor-nav-wrapper'>
+        <div id='unitconverter' className='anchor-nav-wrapper'>
           <Card>
             <a
               href='http://odivus-unitconverter.herokuapp.com'

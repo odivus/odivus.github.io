@@ -1,16 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import Header from '../Header/Header';
 import Copyright from '../Copyright/Copyright';
 import Card from '../Card/Card';
 
 import { useSetTitle } from '../../hooks/use-set-title';
-import { useScrollUp } from '../../hooks/scroll-up';
 
 function Resume() {
   useSetTitle('Олег Петько – резюме');
-  useScrollUp();
 
   return (
     <>
@@ -88,12 +86,12 @@ function Resume() {
             <p className='card__p'>
               React, React&nbsp;Router, Redux, Redux&nbsp;Thunk, Firebase, Javascript, Css&nbsp;BEM.
             </p>
-            <Link
-              to='/portfolio'
+            <HashLink
+              to='/portfolio#feedsreader'
               className='card__a card__a_size_medium'
             >
               Подробнее
-            </Link>
+            </HashLink>
           </Card>
           <div className='anchor-nav-wrapper'>
             <Card>
@@ -120,12 +118,12 @@ function Resume() {
               <p className='card__p'>
                 Next.js, TypeScript, MongoDB, Mongoose, Scss&nbsp;BEM, Materialize, lottie.
               </p>
-              <Link
-                to='/portfolio'
+              <HashLink
+                to='/portfolio#unicredit'
                 className='card__a card__a_size_medium'
               >
                 Подробнее
-              </Link>
+              </HashLink>
             </Card>
           </div>
           <div className='anchor-nav-wrapper'>
@@ -153,12 +151,12 @@ function Resume() {
               <p className='card__p'>
                 React, React&nbsp;Router, React Hook&nbsp;Form, Javascript, Scss&nbsp;BEM, GSAP (ScrollTrigger).
               </p>
-              <Link
-                to='/portfolio'
+              <HashLink
+                to='/portfolio#spbglobal'
                 className='card__a card__a_size_medium'
               >
                 Подробнее
-              </Link>
+              </HashLink>
             </Card>
           </div>
           <div className='anchor-nav-wrapper'>
@@ -186,12 +184,12 @@ function Resume() {
               <p className='card__p'>
                 React, React&nbsp;Router, Javascript, Css.
               </p>
-              <Link
-                to='/portfolio'
+              <HashLink
+                to='/portfolio#unitconverter'
                 className='card__a card__a_size_medium'
               >
                 Подробнее
-              </Link>
+              </HashLink>
             </Card>
           </div>
           <div className='content-wrap'>

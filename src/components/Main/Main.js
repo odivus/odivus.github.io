@@ -7,11 +7,9 @@ import odivus from '../../assets/img/odivus.jpg';
 import github from '../../assets/icons/github.svg';
 
 import { useSetTitle } from '../../hooks/use-set-title';
-import { useScrollUp } from '../../hooks/scroll-up';
 
 function Main() {
   useSetTitle('Олег Петько – middle frontend-разработчик');
-  useScrollUp();
 
   return (
     <>
