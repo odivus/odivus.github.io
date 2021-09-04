@@ -93,11 +93,16 @@ a {
   font-family: 'Roboto-medium', Arial, Helvetica, sans-serif;
   color: #484FFF;
   text-decoration: none;
+  transition: .2s;
 }
 
 a, p, ul, .github-logo-link {
   font-size: 22px;
   line-height: 28px;
+}
+
+a:hover {
+  color: #2e32b8;
 }
 
 .a-content-links {
@@ -123,6 +128,22 @@ ul {
 
 ul > li::before {
   content: '\2013\00A0';
+}
+
+.logo_link,
+.burger,
+.close,
+.contacts__item,
+.up__item {
+  transition: .2s;
+}
+
+.logo_link:hover,
+.burger:hover,
+.close:hover,
+.contacts__item:hover,
+.up__item:hover {
+  transform: scale(1.05);
 }
 
 .anchor-nav-wrapper {

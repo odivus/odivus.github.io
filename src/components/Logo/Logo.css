@@ -1,12 +1,18 @@
 .logo {
   width: 44px;
   height: 44px;
+  transition: .2s;
+}
+
+.logo:hover {
+  filter: brightness(103%);
+}
+
+.logo.logo_nolink:hover,
+.logo.logo_nolink .logo:hover {
+  filter: none;
 }
 
 .logo_nolink {
   cursor: default;
-}
-
-.logo_link {
-  cursor: pointer;
 }

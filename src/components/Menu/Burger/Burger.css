@@ -3,6 +3,11 @@
   width: 36px;
   height: 26px;
   cursor: pointer;
+  transition: .2s;
+}
+
+.burger:hover {
+  filter: brightness(103%);
 }
 
 @media (min-width: 720px) {

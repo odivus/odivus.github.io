@@ -2,6 +2,11 @@
   width: 100%;
   text-align: end;
   cursor: pointer;
+  transition: .2s;
+}
+
+.up:hover {
+  filter: brightness(103%);
 }
 
 .up__item {
