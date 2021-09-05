@@ -13,15 +13,17 @@ function AnchorNav() {
     <div className='anchor-nav-wrap'>
       <div className='anchor-nav'>
         {
-          navItems.map((item, index) => (
+          navItems.map((item, index) => {
+            const str = item.split(' ').join('').toLowerCase();
+            return (
             <a 
               key={index}
-              href={`#${item.toLowerCase()}`} 
+              href={`#${str}`}
               className='anchor-nav__item' 
             >
               {item}
             </a>
-            )
+            )}
           )
         }
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
 import Header from '../Header/Header';
 import Copyright from '../Copyright/Copyright';
@@ -7,11 +8,16 @@ import AnchorNav from '../Anchor-nav/Anchor-nav';
 import Up from '../Up/Up';
 
 import { useSetTitle } from '../../hooks/use-set-title';
+import { useScrollUp } from '../../hooks/use-scroll-up';
 
 import '../Card/Card.css';
 
 function Portfolio() {
+  const location = useLocation();
+  
   useSetTitle('Олег Петько – портфолио');
+  useScrollUp(location.hash);
+
   return (
     <>
       <Header />
