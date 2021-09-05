@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useLocation } from 'react-router-dom';
 
 import Header from '../Header/Header';
@@ -14,7 +14,7 @@ import '../Card/Card.css';
 
 function Portfolio() {
   const location = useLocation();
-  
+
   useSetTitle('Олег Петько – портфолио');
   useScrollUp(location.hash);
 
@@ -126,7 +126,7 @@ function Portfolio() {
             </p>
             <h6 className='card__h6'>Возможности прототипа</h6>
             <p className='card__p card__p_first'>
-              Сервис позволяет оформить заявку на&nbsp;получение кредита у&nbsp;банков-партнеров на&nbsp;общую сумму выбранных товаров из&nbsp;разных категорий.
+              Прототип сервиса позволяет оформить заявку на&nbsp;получение кредита у&nbsp;банков-партнеров на&nbsp;общую сумму выбранных товаров из&nbsp;разных категорий.
             </p>
             <p className='card__p'>
               Пользователь может отложить оформление заявки на&nbsp;кредит, выбранные товары сохраняются.
