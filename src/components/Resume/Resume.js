@@ -45,7 +45,7 @@ function Resume() {
         </p>
         <div className='content'>
           <div className='content-wrap'>
-            <h3>Frontend-разработчик</h3>
+            <h3 className='h3-first'>Frontend-разработчик</h3>
             <p className='p-marker'>
               <i className='text-marker'>
                 Август 2019&nbsp;&ndash; настоящее время
@@ -55,6 +55,7 @@ function Resume() {
               Как frontend-разработчик создал <b>4</b>&nbsp;персональных проекта:
             </p>
           </div>
+          <div id='feedsreader' className='id-block-first'>&nbsp;</div>
           <Card>
             <a 
               href='https://feedsreader-client.herokuapp.com'
@@ -95,105 +96,102 @@ function Resume() {
               Подробнее
             </HashLink>
           </Card>
-          <div className='anchor-nav-wrapper'>
-            <Card>
-              <a 
-                href='https://creditagregator.vercel.app'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='card__a card__a_size_big'
-              >
-                Unicredit
-              </a>
-              <p className='card__p'>
-                Прототип сервиса по&nbsp;подбору кредитов на&nbsp;приобретаемые товары.
-              </p>
-              <a
-                href='https://github.com/odivus/unicredit'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='card__a card__a_size_medium'
-              >
-                Исходный код на&nbsp;GitHub
+          <div id='unicredit' className='id-block'>&nbsp;</div>
+          <Card>
+            <a 
+              href='https://creditagregator.vercel.app'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='card__a card__a_size_big'
+            >
+              Unicredit
             </a>
-              <h6 className='card__h6'>Стек</h6>
-              <p className='card__p'>
-                Next.js, TypeScript, MongoDB, Mongoose, Scss&nbsp;BEM, Materialize, lottie.
-              </p>
-              <HashLink
-                to='/portfolio#unicredit'
-                className='card__a card__a_size_medium'
-              >
-                Подробнее
-              </HashLink>
-            </Card>
-          </div>
-          <div className='anchor-nav-wrapper'>
-            <Card>
-              <a 
-                href='https://spbglobal.vercel.app'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='card__a card__a_size_big'
-              >
-                SPB Global
-              </a>
-              <p className='card__p'>
-                Сайт вымышленного венчурного фонда.
-              </p>
-              <a
-                href='https://github.com/odivus/spbglobal'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='card__a card__a_size_medium'
-              >
-                Исходный код на&nbsp;GitHub
+            <p className='card__p'>
+              Прототип сервиса по&nbsp;подбору кредитов на&nbsp;приобретаемые товары.
+            </p>
+            <a
+              href='https://github.com/odivus/unicredit'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='card__a card__a_size_medium'
+            >
+              Исходный код на&nbsp;GitHub
+          </a>
+            <h6 className='card__h6'>Стек</h6>
+            <p className='card__p'>
+              Next.js, TypeScript, MongoDB, Mongoose, Scss&nbsp;BEM, Materialize, lottie.
+            </p>
+            <HashLink
+              to='/portfolio#unicredit'
+              className='card__a card__a_size_medium'
+            >
+              Подробнее
+            </HashLink>
+          </Card>
+          <div id='spbglobal' className='id-block'>&nbsp;</div>
+          <Card>
+            <a 
+              href='https://spbglobal.vercel.app'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='card__a card__a_size_big'
+            >
+              SPB Global
             </a>
-              <h6 className='card__h6'>Стек</h6>
-              <p className='card__p'>
-                React, React&nbsp;Router, React Hook&nbsp;Form, Javascript, Scss&nbsp;BEM, GSAP (ScrollTrigger).
-              </p>
-              <HashLink
-                to='/portfolio#spbglobal'
-                className='card__a card__a_size_medium'
-              >
-                Подробнее
-              </HashLink>
-            </Card>
-          </div>
-          <div className='anchor-nav-wrapper'>
-            <Card>
-              <a 
-                href='http://odivus-unitconverter.herokuapp.com'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='card__a card__a_size_big'
-              >
-                Unitconverter
-              </a>
-              <p className='card__p'>
-                Конвертер международных величин.
-              </p>
-              <a
-                href='https://github.com/odivus/unitconverter'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='card__a card__a_size_medium'
-              >
-                Исходный код на&nbsp;GitHub
+            <p className='card__p'>
+              Сайт вымышленного венчурного фонда.
+            </p>
+            <a
+              href='https://github.com/odivus/spbglobal'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='card__a card__a_size_medium'
+            >
+              Исходный код на&nbsp;GitHub
+          </a>
+            <h6 className='card__h6'>Стек</h6>
+            <p className='card__p'>
+              React, React&nbsp;Router, React Hook&nbsp;Form, Javascript, Scss&nbsp;BEM, GSAP (ScrollTrigger).
+            </p>
+            <HashLink
+              to='/portfolio#spbglobal'
+              className='card__a card__a_size_medium'
+            >
+              Подробнее
+            </HashLink>
+          </Card>
+          <div id='unitconverter' className='id-block'>&nbsp;</div>
+          <Card>
+            <a 
+              href='http://odivus-unitconverter.herokuapp.com'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='card__a card__a_size_big'
+            >
+              Unitconverter
             </a>
-              <h6 className='card__h6'>Стек</h6>
-              <p className='card__p'>
-                React, React&nbsp;Router, Javascript, Css.
-              </p>
-              <HashLink
-                to='/portfolio#unitconverter'
-                className='card__a card__a_size_medium'
-              >
-                Подробнее
-              </HashLink>
-            </Card>
-          </div>
+            <p className='card__p'>
+              Конвертер международных величин.
+            </p>
+            <a
+              href='https://github.com/odivus/unitconverter'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='card__a card__a_size_medium'
+            >
+              Исходный код на&nbsp;GitHub
+          </a>
+            <h6 className='card__h6'>Стек</h6>
+            <p className='card__p'>
+              React, React&nbsp;Router, Javascript, Css.
+            </p>
+            <HashLink
+              to='/portfolio#unitconverter'
+              className='card__a card__a_size_medium'
+            >
+              Подробнее
+            </HashLink>
+          </Card>
           <div className='content-wrap'>
             <h3>Студия Артемия Лебедева</h3>
             <p className='p-marker'>
