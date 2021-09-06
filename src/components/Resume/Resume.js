@@ -168,7 +168,7 @@ function Resume() {
               rel='noopener noreferrer'
               className='card__a card__a_size_big'
             >
-              Unitconverter
+              Unit Converter
             </a>
             <p className='card__p'>
               Конвертер международных величин.
