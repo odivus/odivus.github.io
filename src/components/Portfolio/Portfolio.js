@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Copyright from '../Copyright/Copyright';
 import Card from '../Card/Card';
 import AnchorNav from '../Anchor-nav/Anchor-nav';
+import Video from '../Portfolio/Video';
 import Up from '../Up/Up';
 
 import { useSetTitle } from '../../hooks/use-set-title';
@@ -96,6 +97,7 @@ function Portfolio() {
             </li>
           </ol>
           <h6 className='card__h6'>Демонстрация</h6>
+          <Video url='https://vimeo.com/600475213' />
           <Up />
         </Card>
         <div id='unicredit' className='id-block'>&nbsp;</div>
