@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.400982b1.chunk.js",
-    "main.js.map": "/static/js/main.400982b1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a17c1ec6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a17c1ec6.js.map",
-    "static/js/2.cba10543.chunk.js": "/static/js/2.cba10543.chunk.js",
-    "static/js/2.cba10543.chunk.js.map": "/static/js/2.cba10543.chunk.js.map",
-    "static/js/3.7269c77a.chunk.js": "/static/js/3.7269c77a.chunk.js",
-    "static/js/3.7269c77a.chunk.js.map": "/static/js/3.7269c77a.chunk.js.map",
+    "main.css": "/static/css/main.d8d8eb5c.chunk.css",
+    "main.js": "/static/js/main.28c30492.chunk.js",
+    "main.js.map": "/static/js/main.28c30492.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eff6cf7a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eff6cf7a.js.map",
+    "static/js/2.9182fc2f.chunk.js": "/static/js/2.9182fc2f.chunk.js",
+    "static/js/2.9182fc2f.chunk.js.map": "/static/js/2.9182fc2f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.cba10543.chunk.js.LICENSE.txt": "/static/js/2.cba10543.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/main.d8d8eb5c.chunk.css.map": "/static/css/main.d8d8eb5c.chunk.css.map",
+    "static/js/2.9182fc2f.chunk.js.LICENSE.txt": "/static/js/2.9182fc2f.chunk.js.LICENSE.txt",
+    "static/media/burger.84da062f.svg": "/static/media/burger.84da062f.svg",
+    "static/media/close.34205875.svg": "/static/media/close.34205875.svg",
+    "static/media/email.65db63d3.svg": "/static/media/email.65db63d3.svg",
+    "static/media/github.003d06fe.svg": "/static/media/github.003d06fe.svg",
+    "static/media/index.css": "/static/media/roboto-regular.91f689ac.woff2",
+    "static/media/logo.23e48c68.svg": "/static/media/logo.23e48c68.svg",
+    "static/media/odivus.87a5b03f.jpg": "/static/media/odivus.87a5b03f.jpg",
+    "static/media/skype.f408684e.svg": "/static/media/skype.f408684e.svg",
+    "static/media/telegram.1ef34ace.svg": "/static/media/telegram.1ef34ace.svg",
+    "static/media/up.f6eac97c.svg": "/static/media/up.f6eac97c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a17c1ec6.js",
-    "static/js/2.cba10543.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.400982b1.chunk.js"
+    "static/js/runtime-main.eff6cf7a.js",
+    "static/js/2.9182fc2f.chunk.js",
+    "static/css/main.d8d8eb5c.chunk.css",
+    "static/js/main.28c30492.chunk.js"
   ]
 }

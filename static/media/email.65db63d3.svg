@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1538"
+   width="240"
+   height="240"
+   viewBox="0 0 240 240"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1542">
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask16557">
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:80;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 215.98051,364.00119 440,273.96017 440.01279,-273.96017"
+         id="path16559" />
+    </mask>
+  </defs>
+  <g
+     id="layer1"
+     style="display:inline;opacity:1">
+    <circle
+       style="fill:#2aabee;fill-opacity:1;stroke-width:0.415621;stop-color:#000000"
+       id="path1841"
+       cx="120"
+       cy="120"
+       r="120" />
+    <path
+       id="path34875"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.16107px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 59.306557,71.616286 c 0,0 48.826863,49.467944 60.639653,49.467944 12.09404,0 60.48644,-49.467945 60.48644,-49.467945 z M 49.261084,80.70981 v 77.42583 l 43.568134,-37.43521 z m 141.477836,0.379396 -43.56782,39.990624 43.56782,37.43521 z M 105.12558,128.36226 58.874312,168.38371 H 181.23957 l -45.96152,-40.02145 c 0,0 -8.02684,6.04831 -15.33498,6.0052 -7.30816,-0.0432 -14.81749,-6.0052 -14.81749,-6.0052 z" />
+  </g>
+</svg>
