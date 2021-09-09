@@ -145,6 +145,7 @@ function Portfolio() {
             Пользователь может редактировать личную информацию в&nbsp;своем профиле.
           </p>
           <h6 className='card__h6'>Демонстрация</h6>
+          <Video url='https://vimeo.com/601201196' />
           <Up />
         </Card>
         <div id='spbglobal' className='id-block'>&nbsp;</div>
@@ -173,6 +174,7 @@ function Portfolio() {
             React, React Router, React Hook Form, Javascript, Scss BEM, GSAP (ScrollTrigger).
           </p>
           <h6 className='card__h6'>Демонстрация</h6>
+          <Video url='https://vimeo.com/601202133' />
           <Up />
         </Card>
         <div id='unitconverter' className='id-block'>&nbsp;</div>
@@ -215,6 +217,7 @@ function Portfolio() {
             Также умеет конвертировать валюты, используя сторонний&nbsp;api. Код легко расширяемый для добавления новых величин и&nbsp;валют.
           </p>
           <h6 className='card__h6'>Демонстрация</h6>
+          <Video url='https://vimeo.com/600926753' />
           <Up />
         </Card>
         <Copyright />
