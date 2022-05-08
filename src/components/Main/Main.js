@@ -53,21 +53,20 @@ function Main() {
           <div className='content'>
             <h4>Frontend</h4>
             <ul>
-              <li>JavaScript (ES6+), TypeScript.</li>
-              <li>ReactJS, NextJS.</li>
-              <li>Redux, Redux Saga, Redux Thunk, Reselect.</li>
-              <li>React Hook Form, Formik.</li>
-              <li>SCSS Sass, Less, PostCSS, BEM.</li>
-              <li>Material UI, Materialize, Twitter Bootstrap.</li>
-              <li>Webpack, Parcel, Gulp.</li>
+              <li>JavaScript (ES6+), TypeScript;</li>
+              <li>ReactJS, NextJS;</li>
+              <li>Redux, Redux Saga, Redux Thunk, Reselect;</li>
+              <li>React Hook Form, Formik;</li>
+              <li>SCSS Sass, Less, PostCSS, BEM;</li>
+              <li>Material UI, Materialize, Twitter Bootstrap;</li>
+              <li>Webpack, Parcel, Gulp;</li>
               <li>React Testing Library, Jest, Enzyme.</li>
             </ul>
             <h4>Backend</h4>
             <ul>
-              <li>NodeJs, Express.</li>
-              <li>MongoDB, Mongoose.</li>
+              <li>NodeJs, Express;</li>
+              <li>MongoDB, Mongoose;</li>
               <li>GraphQL.</li>
-              <li>WebSocket, WebRTC, Socket.io.</li>
             </ul>
             <h4>Верстка</h4>
             <ul>
@@ -75,9 +74,9 @@ function Main() {
             </ul>
             <h4>Дизайн</h4>
             <ul>
-              <li>UI/UX.</li>
-              <li>Веб-дизайн.</li>
-              <li>Графический дизайн.</li>
+              <li>UI/UX;</li>
+              <li>Веб-дизайн;</li>
+              <li>Графический дизайн;</li>
               <li>Любая графика (векторная, растровая), рекламные баннеры, иллюстрации, иконки.</li>
             </ul>
           </div>
