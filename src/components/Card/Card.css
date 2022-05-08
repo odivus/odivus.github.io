@@ -20,11 +20,6 @@
 .card__ol {
   font-size: 19px;
   margin-top: 0;
-}
-
-.card__p,
-.card__ul, 
-.card__ol {
   line-height: 26px;
 }
 
