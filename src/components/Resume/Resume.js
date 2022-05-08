@@ -4,6 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import Header from '../Header/Header';
 import Copyright from '../Copyright/Copyright';
 import Card from '../Card/Card';
+import Message from '../Message/Message';
 
 import { useSetTitle } from '../../hooks/use-set-title';
 import { useScrollUp } from '../../hooks/use-scroll-up';
@@ -61,6 +62,7 @@ function Resume() {
             <p className='card__p'>
               Приложение для чтения rss-фидов.
             </p>
+            <Message />
             <h6 className='card__h6'>Исходный код на&nbsp;GitHub</h6>
             <a
               href='https://github.com/odivus/feedsreader-client'

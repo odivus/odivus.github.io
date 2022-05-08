@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import Header from '../Header/Header';
 import Copyright from '../Copyright/Copyright';
 import Card from '../Card/Card';
+import Message from '../Message/Message'
 import AnchorNav from '../Anchor-nav/Anchor-nav';
 import Video from '../Portfolio/Video';
 import Up from '../Up/Up';
@@ -38,6 +39,7 @@ function Portfolio() {
           <p className='card__p'>
             Приложение для чтения rss-фидов.
           </p>
+          <Message />
           <h6 className='card__h6'>Исходный код на&nbsp;GitHub</h6>
           <a
             href='https://github.com/odivus/feedsreader-client'

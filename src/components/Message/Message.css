@@ -1,3 +1,8 @@
 .message {
-  background-color: tomato;
+  padding: 1rem;
+  font-family: 'Roboto-italic';
+  line-height: 1.4rem;
+  text-align: center;
+  background-color: #ff4343;
+  color: #ffffff;
 }
