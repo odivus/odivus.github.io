@@ -266,13 +266,6 @@ function Resume() {
                 Февраль 2004&nbsp;&ndash; Июнь 2005 (1&nbsp;год и&nbsp;5&nbsp;месяцев)
               </i>
             </p>
-            <a
-              href='https://www.upwork.com/o/companies/~0101aac0fcaa2cdd21'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Профиль студии на&nbsp;Upwork
-            </a>
             <p className='p-first'>
               В Wonderkid Studio создавал веб-дизайн, иллюстрации для заказчиков из&nbsp;США и&nbsp;Европы. Основное время работал удаленно, иногда собирались в&nbsp;офисе для обсуждения проектов.
             </p>
