@@ -30,7 +30,7 @@ function Resume() {
           </a>
           <br />
           Скачать <a
-            href='https://disk.yandex.com/i/KhqHnYnQwa6LXg'
+            href='https://disk.yandex.com/i/bvHo8ncmzpNZbg'
             target='_blank'
             rel='noopener noreferrer'
             >
@@ -39,7 +39,27 @@ function Resume() {
         </p>
         <div className='content'>
           <div className='content-wrap'>
-            <h3 className='h3-first'>Frontend-разработчик</h3>
+            <h3>EANLights</h3>
+            <p className='p-marker'>
+              <i className='text-marker'>
+                Июль 2020&nbsp; &ndash; Март 2022 (1&nbsp;год и&nbsp;9&nbsp;месяцев)
+              </i>
+            </p>
+            <p className='p-first'>
+              Удаленно работал frontend-разработчиком в&nbsp; международной голландской компании, которая занимается оптовой продажей и&nbsp;арендой светового оборудования.
+            </p>
+            <p className='p-first'>
+              В мои обязанности frontend-разработчика входило:
+            </p>
+            <ul>
+              <li>
+                Разработка и поддержка корпоративного веб-приложения для партнеров и&nbsp;клиентов компании;
+              </li>
+              <li>
+                Создание рекламных одностраничных сайтов.
+              </li>
+            </ul>
+            <h3 className='h3-first'>Персональные проекты</h3>
             <p className='p-marker'>
               <i className='text-marker'>
                 Август 2019&nbsp;&ndash; настоящее время
