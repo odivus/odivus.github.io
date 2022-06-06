@@ -30,7 +30,7 @@ function Resume() {
           </a>
           <br />
           Скачать <a
-            href='https://disk.yandex.com/i/YAh_1dEALOfXPg'
+            href='https://disk.yandex.com/i/7kquavmOZI1KhQ'
             target='_blank'
             rel='noopener noreferrer'
             >
@@ -42,7 +42,7 @@ function Resume() {
             <h3>EANLights</h3>
             <p className='p-marker'>
               <i className='text-marker'>
-                Июль 2020&nbsp; &ndash; Март 2022 (1&nbsp;год и&nbsp;9&nbsp;месяцев)
+                Январь 2020&nbsp; &ndash; Март 2022 (2&nbsp;года и&nbsp;3&nbsp;месяца)
               </i>
             </p>
             <p className='p-first'>
