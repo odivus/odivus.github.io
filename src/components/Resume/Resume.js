@@ -26,7 +26,7 @@ function Resume() {
           </a>
           <br />
           Скачать <a
-            href='https://disk.yandex.com/i/7kquavmOZI1KhQ'
+            href='https://disk.yandex.com/i/KAHiSCqM4altGQ'
             target='_blank'
             rel='noopener noreferrer'
             >
