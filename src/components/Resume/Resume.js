@@ -26,7 +26,7 @@ function Resume() {
           </a>
           <br />
           Скачать <a
-            href='https://disk.yandex.com/i/KAHiSCqM4altGQ'
+            href='https://disk.yandex.com/i/_kYeC5NVpSmRSg'
             target='_blank'
             rel='noopener noreferrer'
             >
@@ -44,9 +44,9 @@ function Resume() {
             <p className='p-first'>
               Удаленно работал frontend-разработчиком в&nbsp;международной голландской компании (аутстаффинг), которая занимается оптовой продажей и&nbsp;арендой светового оборудования.
             </p>
-            <p className='p-first'>
-              В мои обязанности frontend-разработчика входило:
-            </p>
+            <h6>
+              Обязанности
+            </h6>
             <ul>
               <li>
                 Разработка и поддержка корпоративного веб-приложения для партнеров и&nbsp;клиентов компании;
@@ -70,6 +70,15 @@ function Resume() {
                 Проведение Code Review.
               </li>
             </ul>
+            <h3>Фриланс</h3>
+            <p className='p-marker'>
+              <i className='text-marker'>
+                Декабрь 2016&nbsp;&ndash; Январь 2018 (1&nbsp;год и&nbsp;2&nbsp;месяца)
+              </i>
+            </p>
+            <p className='p-first'>
+              На фрилансе как html-верстальщик и&nbsp;дизайнер сотрудничал с&nbsp;рекламными агенствами и&nbsp;заказчиками из&nbsp;малого бизнеса.
+            </p>
             <h3>Студия Артемия Лебедева</h3>
             <p className='p-marker'>
               <i className='text-marker'>
@@ -97,9 +106,9 @@ function Resume() {
             <p>
               Яндекс, Microsoft, Samsung, Газпром, HP, TNK-BP, Киевстар, Рамблер, Альфа-Банк, банк&nbsp;Аваль и&nbsp;т.&nbsp;д.
             </p>
-            <p>
-              В&nbsp;мои обязанности технического дизайнера входило:
-            </p>
+            <h6>
+              Обязанности
+            </h6>
             <ul>
               <li>
                 Создание рекламных баннеров для веб;
