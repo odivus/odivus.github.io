@@ -26,7 +26,7 @@ function Resume() {
           </a>
           <br />
           Скачать <a
-            href='https://disk.yandex.com/i/_kYeC5NVpSmRSg'
+            href='https://disk.yandex.com/i/Vj-IS0kcd0eing'
             target='_blank'
             rel='noopener noreferrer'
             >
@@ -70,6 +70,8 @@ function Resume() {
                 Проведение Code Review.
               </li>
             </ul>
+            <h6 className='h6-resume'>Стек</h6>
+            <p>JavaScript, TypeScript, React, Redux, NextJs, SCSS, Jest, RTL.</p>
             <h3>Фриланс</h3>
             <p className='p-marker'>
               <i className='text-marker'>
@@ -79,6 +81,8 @@ function Resume() {
             <p className='p-first'>
               На фрилансе как html-верстальщик и&nbsp;дизайнер сотрудничал с&nbsp;рекламными агенствами и&nbsp;заказчиками из&nbsp;малого бизнеса.
             </p>
+            <h6 className='h6-resume'>Стек</h6>
+            <p>HTML, JavaScript, CSS, JQuery, Gulp.</p>
             <h3>Студия Артемия Лебедева</h3>
             <p className='p-marker'>
               <i className='text-marker'>
