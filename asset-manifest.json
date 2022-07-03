@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.05c4656c.chunk.css",
-    "main.js": "/static/js/main.543ebff9.chunk.js",
-    "main.js.map": "/static/js/main.543ebff9.chunk.js.map",
+    "main.js": "/static/js/main.cc59cb95.chunk.js",
+    "main.js.map": "/static/js/main.cc59cb95.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eff6cf7a.js",
     "runtime-main.js.map": "/static/js/runtime-main.eff6cf7a.js.map",
     "static/js/2.bff3ce81.chunk.js": "/static/js/2.bff3ce81.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/github.003d06fe.svg": "/static/media/github.003d06fe.svg",
     "static/media/index.css": "/static/media/roboto-regular.91f689ac.woff2",
     "static/media/logo.23e48c68.svg": "/static/media/logo.23e48c68.svg",
-    "static/media/odivus.eced37be.jpg": "/static/media/odivus.eced37be.jpg",
+    "static/media/odivus.30377d57.jpg": "/static/media/odivus.30377d57.jpg",
     "static/media/skype.f408684e.svg": "/static/media/skype.f408684e.svg",
     "static/media/telegram.1ef34ace.svg": "/static/media/telegram.1ef34ace.svg",
     "static/media/up.f6eac97c.svg": "/static/media/up.f6eac97c.svg"
@@ -25,6 +25,6 @@
     "static/js/runtime-main.eff6cf7a.js",
     "static/js/2.bff3ce81.chunk.js",
     "static/css/main.05c4656c.chunk.css",
-    "static/js/main.543ebff9.chunk.js"
+    "static/js/main.cc59cb95.chunk.js"
   ]
 }
