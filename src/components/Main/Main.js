@@ -69,11 +69,11 @@ function Main() {
             <h4>Дизайн</h4>
             <ul>
               <li>Figma;</li>
-              <li>UI/UX;</li>
+              <li>UI/UX.</li>
             </ul>
             <h4>Другое</h4>
             <ul>
-              <li>Git, GitHub, GitLab;</li>
+              <li>Git, GitHub, GitLab.</li>
             </ul>
           </div>
         </div>
