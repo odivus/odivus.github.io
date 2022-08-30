@@ -50,6 +50,7 @@ function Main() {
               <li>ReactJS, NextJS;</li>
               <li>Redux, Redux Saga, Redux Thunk, Reselect;</li>
               <li>MobX;</li>
+              <li>React Router;</li>
               <li>React Hook Form, Formik;</li>
               <li>SCSS Sass, Less, PostCSS, BEM;</li>
               <li>FluentUI, Materialize, TailwindCSS, Storybook;</li>
