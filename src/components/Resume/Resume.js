@@ -26,7 +26,7 @@ function Resume() {
           </a>
           <br />
           Скачать <a
-            href='https://disk.yandex.com/i/Vj-IS0kcd0eing'
+            href='https://disk.yandex.com/i/zFh69oxIw-zkYw'
             target='_blank'
             rel='noopener noreferrer'
             >
@@ -49,13 +49,10 @@ function Resume() {
             </h6>
             <ul>
               <li>
-                Разработка и поддержка корпоративного веб-приложения для партнеров и&nbsp;клиентов компании;
+                Разработка и&nbsp;поддержка корпоративного веб-приложения для компании-заказчика, ее&nbsp;партнеров и&nbsp;клиентов;
               </li>
               <li>
                 Создание рекламных одностраничных сайтов для продвижения бизнеса компании и&nbsp;привлечения новых клиентов;
-              </li>
-              <li>
-                Проектирование архитектурных решений клиентского приложения;
               </li>
               <li>
                 Участие в декомпозиции проектных задач;
@@ -67,22 +64,22 @@ function Resume() {
                 Написание юнит-тестов;
               </li>
               <li>
-                Проведение Code Review.
+                Участие в&nbsp;Code Review.
               </li>
             </ul>
             <h6 className='h6-resume'>Стек</h6>
-            <p>JavaScript, TypeScript, React, Redux, NextJs, SCSS, Jest, RTL.</p>
+            <p>JavaScript, TypeScript, React, Redux, NextJs, FluentUI, TailwindCSS, Storybook, SCSS, Jest, RTL.</p>
             <h3>Фриланс</h3>
             <p className='p-marker'>
               <i className='text-marker'>
-                Декабрь 2016&nbsp;&ndash; Январь 2018 (1&nbsp;год и&nbsp;2&nbsp;месяца)
+                Февраль 2017&nbsp;&ndash; Август 2019 (2&nbsp;года и&nbsp;7&nbsp;месяцев)
               </i>
             </p>
             <p className='p-first'>
               На фрилансе как html-верстальщик и&nbsp;дизайнер сотрудничал с&nbsp;рекламными агенствами и&nbsp;заказчиками из&nbsp;малого бизнеса.
             </p>
             <h6 className='h6-resume'>Стек</h6>
-            <p>HTML, JavaScript, CSS, JQuery, Gulp.</p>
+            <p>HTML, JavaScript, CSS, JQuery, WordPress, Gulp.</p>
             <h3>Студия Артемия Лебедева</h3>
             <p className='p-marker'>
               <i className='text-marker'>

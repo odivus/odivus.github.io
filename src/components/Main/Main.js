@@ -49,9 +49,10 @@ function Main() {
               <li>JavaScript (ES6+), TypeScript;</li>
               <li>ReactJS, NextJS;</li>
               <li>Redux, Redux Saga, Redux Thunk, Reselect;</li>
+              <li>MobX;</li>
               <li>React Hook Form, Formik;</li>
               <li>SCSS Sass, Less, PostCSS, BEM;</li>
-              <li>Material UI, Materialize, Twitter Bootstrap;</li>
+              <li>FluentUI, Materialize, TailwindCSS, Storybook;</li>
               <li>Webpack, Parcel, Gulp;</li>
               <li>React Testing Library, Jest, Enzyme.</li>
             </ul>
@@ -69,14 +70,10 @@ function Main() {
             <ul>
               <li>Figma;</li>
               <li>UI/UX;</li>
-              <li>Веб-дизайн;</li>
-              <li>Графический дизайн;</li>
-              <li>Любая графика (векторная, растровая), рекламные баннеры, иллюстрации, иконки.</li>
             </ul>
             <h4>Другое</h4>
             <ul>
-              <li>Git, GitHub;</li>
-              <li>Jira.</li>
+              <li>Git, GitHub, GitLab;</li>
             </ul>
           </div>
         </div>
