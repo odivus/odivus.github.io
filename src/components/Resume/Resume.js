@@ -26,7 +26,7 @@ function Resume() {
           </a>
           <br />
           Скачать <a
-            href='https://disk.yandex.com/i/gbsgk7oSElzgfw'
+            href='https://disk.yandex.com/i/LwMHSru0bn_mPg'
             target='_blank'
             rel='noopener noreferrer'
             >
@@ -155,7 +155,7 @@ function Resume() {
             <h3>Wonderkid Studio</h3>
             <p className='p-marker'>
               <i className='text-marker'>
-                Февраль 2004&nbsp;&ndash; Июнь 2005 (1&nbsp;год и&nbsp;5&nbsp;месяцев)
+                Декабрь 2004&nbsp;&ndash; Май 2005 (6&nbsp;месяцев)
               </i>
             </p>
             <p className='p-first'>
