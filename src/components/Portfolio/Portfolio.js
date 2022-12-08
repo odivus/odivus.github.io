@@ -182,7 +182,7 @@ function Portfolio() {
         <div id='unitconverter' className='id-block'>&nbsp;</div>
         <Card>
           <a
-            href='http://odivus-unitconverter.herokuapp.com'
+            href='https://unitconverter-black.vercel.app'
             target='_blank'
             rel='noopener noreferrer'
             className='card__a card__a_size_big'
