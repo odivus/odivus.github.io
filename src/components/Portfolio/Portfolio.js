@@ -193,7 +193,7 @@ function Portfolio() {
             Конвертер международных величин.
           </p>
           <a
-            href='https://github.com/odivus/unitconverter'
+            href='https://unitconverter-black.vercel.app'
             target='_blank'
             rel='noopener noreferrer'
             className='card__a card__a_size_medium'
